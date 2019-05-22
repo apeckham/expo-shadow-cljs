@@ -4,10 +4,14 @@
     "slug": "hello-world-app",
     "privacy": "public",
     "sdkVersion": "32.0.0",
+    "entryPoint": "./app/index.js",
     "platforms": [
       "ios",
       "android"
     ],
+      "android": {
+          "package": "com.yourcompany.yourappname"
+      },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
