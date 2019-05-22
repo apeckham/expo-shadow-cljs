@@ -8,3 +8,5 @@ npm-debug.*
 .expo-shared
 .shadow-cljs
 app
+node-tests.js
+.nrepl-port

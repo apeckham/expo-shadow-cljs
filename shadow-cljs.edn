@@ -13,4 +13,8 @@
    :init-fn test.app/init
    :output-dir "app"
    :devtools {:autoload true
-              :preloads [shadow.expo.keep-awake]}}}}
+              :preloads [shadow.expo.keep-awake]}}
+  :test
+  {:target :node-test
+   :output-to "node-tests.js"
+   :autorun true}}}
