@@ -7,7 +7,8 @@
    [shadow.expo :as expo]))
 
 (defn root []
-  [:> rn/Text {:style #js {:fontSize 24}} "holy shit world"])
+  [:> rn/View {:style #js {:flex 1 :justifyContent "center" :alignItems "center" :backgroundColor "lightyellow"}}
+   [:> rn/Text {:style #js {:fontSize 24 :fontWeight "bold" :color "red"}} "shadow-cljs rocks"]])
 
 (defn start []
   {:dev/after-load true}
